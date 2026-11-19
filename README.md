@@ -1,5 +1,10 @@
 # hsp-client
 
+[![PyPI](https://img.shields.io/pypi/v/hsp-client)](https://pypi.org/project/hsp-client/)
+[![Python](https://img.shields.io/pypi/pyversions/hsp-client)](https://pypi.org/project/hsp-client/)
+[![CI](https://github.com/rosedillon/hsp-client/actions/workflows/ci.yml/badge.svg)](https://github.com/rosedillon/hsp-client/actions/workflows/ci.yml)
+[![Licence: GPL-3.0](https://img.shields.io/badge/licence-GPL--3.0-blue)](https://github.com/rosedillon/hsp-client/blob/main/LICENSE)
+
 A Python client for the Rail Delivery Group's Historic Service
 Performance (HSP) API, which records how late trains between two
 stations actually ran, from Darwin's historical data.
@@ -32,7 +37,7 @@ frame = parse_service_metrics(raw)
 Python 3.11 or later.
 
 ```sh
-pip install git+https://github.com/rosedillon/hsp-client
+pip install hsp-client
 ```
 
 or, from a clone, `pip install .`. It depends on pandas for the tables.
@@ -178,7 +183,7 @@ numbers and empty-string times included.
 
 ## Licence
 
-GPL-3.0. See [LICENSE](LICENSE).
+GPL-3.0. See [LICENSE](https://github.com/rosedillon/hsp-client/blob/main/LICENSE).
 
 Not affiliated with or endorsed by the Rail Delivery Group or National
 Rail.
