@@ -49,4 +49,4 @@ __all__ = [
     "parse_service_metrics",
 ]
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
